@@ -1,0 +1,22 @@
+{
+  "name": "static-website-test",
+  "version": "1.0.0",
+  "description": "Tiny example of publishing a website to aws.",
+  "main": "index.js",
+  "author": "David Sandor",
+  "license": "MIT",
+  "dependencies": {
+    "@aws-cdk/core": "^1.2.0",
+    "@types/semver": "^6.0.1",
+    "aws-cdk": "^1.2.0",
+    "aws-cdk-static-website": "^1.0.0"
+  },
+  "devDependencies": {
+    "aws-cdk": "^1.1.0",
+    "ts-node": "^8.1.0",
+    "typescript": "^3.3.3333"
+  },
+  "scripts": {
+    "clean": "rm -rf node_modules/ cdk.out/ *.log"
+  }
+}

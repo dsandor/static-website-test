@@ -1,6 +1,6 @@
 #!/usr/bin/env node
 import cdk = require('@aws-cdk/core');
-import { StaticWebsiteStack, IStaticWebsiteProps } from 'aws-cdk-static-website'; //'./StaticWebsiteStack';
+import { StaticWebsiteStack, IStaticWebsiteProps } from 'aws-cdk-static-website';
 
 export class MyWebStack extends StaticWebsiteStack {
   constructor(scope: cdk.App, id: string ) {
